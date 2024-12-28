@@ -1,0 +1,78 @@
+body {
+  font-family: 'Georgia', serif;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #1c1c3c, #4a4a8d);
+  color: #f0f0f5;
+}
+
+main {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #f0e68c;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+}
+
+#img-div {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+  border: 3px solid #f0e68c;
+}
+
+#img-caption {
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: #f0e68c;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+#tribute-info {
+  font-size: 1.5em;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 20px 0;
+  line-height: 2;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#tribute-link {
+  font-size: 1.2em;
+  color: #00e6e6;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease;
+}
+
+#tribute-link:hover {
+  background: rgba(0, 0, 0, 0.6);
+  color: #f0e68c;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.8);
+}
